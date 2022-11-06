@@ -12,11 +12,11 @@ class Movielist extends Component {
                     </h1>
                     <ul> {List.map((item, index)=>{
                         return(
-                             <ul key={index}>
+                             <li className="line" key={index}>
                         <a href={item.img} className={item.cName}>
                     <i className={item.icon}></i>{item.title}
                     </a>
-                  </ul>
+                  </li>
                     )
                     })}
                 

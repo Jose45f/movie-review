@@ -2,3 +2,19 @@
   text-align: center;
   padding-top: 150px;
 }
+li.line{
+  display: inline;
+  padding: 20px;
+}
+
+
+li.starListItem{
+display: inline-block;
+backdrop-filter: blur(100px);
+padding: 15px;
+}
+
+.yellowStar {
+  fill: yellow;;
+}
+
