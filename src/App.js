@@ -1,18 +1,13 @@
-import {Component,} from "react"
-import List from "./components/Movielist";
-import Navbar from './components/Navbar';
-import Star from "./components/stars";
+// This is the review form, just kept the OG name to prevent errors since i made this change after.
 
+import {Component,} from "react"
 class App extends Component {
 
  
  render() {
    return (
      <div className="App">
-      <Navbar/>
-      <List/>
-      <Star/>      
-
+ <>Hello</>
      </div>
     )
    }
