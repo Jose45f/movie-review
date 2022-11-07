@@ -1,15 +1,16 @@
 // This is the review form, just kept the OG name to prevent errors since i made this change after.
 
-import {Component,} from "react"
-class App extends Component {
+import './components/moviestyle.css'
+import Review from "./components/Review";
 
- 
- render() {
-   return (
-     <div className="App">
- <>Hello</>
-     </div>
-    )
-   }
-   }
+function App () {
+  return(
+    <>
+    <div className="container"> 
+    <Review/>
+
+    </div>
+    </>
+  )
+}
 export default App;
