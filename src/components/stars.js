@@ -11,7 +11,7 @@ function Star () {
     const [hoverIndex, setHoverIndex] = useState(0);
     const [rating, setRating] = useState(0);
     return (
-        <div>
+        <div className='mov'>
             <h2>Rate Below</h2>
             <ul className='starList'>
             {[1,2,3,4,5].map((index) =>{
