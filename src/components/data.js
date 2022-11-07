@@ -1,3 +1,5 @@
+// navbar data (Title, url, etc)
+
 export const data = [
     {
         title: 'Home',

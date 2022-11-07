@@ -1,3 +1,5 @@
+// components thats supposed to list the movies
+
 import { Component } from "react";
 import './App.css';
 import { List } from './Moviedata';
@@ -28,4 +30,5 @@ class Movielist extends Component {
     }
     
     export default Movielist
+    
     

@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle.js';
 import App from './App';
-
+import App2 from './components/App2';
 import List from "./components/Movielist";
 import Navbar from './components/Navbar';
 import Star from "./components/stars";
@@ -15,6 +15,7 @@ root.render(
     <App />
     <Navbar/>
       <List/>
-      <Star/>   
+      <Star/>
+      <App2 />   
   </React.StrictMode>
 );
