@@ -16,21 +16,18 @@ class Movielist extends Component {
                     </h1>
                     <ul> {List.map((item, index)=>{
                         return(
-                             <li className="line" key={index}>
-                        <img src={item.img} alt='movie pics'/>
-                        <h1 >{item.title} </h1>
-                        <h2>{item.year} </h2>
-                        <p>{item.info} </p>
+                       <li className="line" key={index}>
+                        <img src={item.img} alt='the images of the movie'/> 
+                         <h1 >{item.title},{item.year}</h1>
+                         <div> {item.info} </div>
                         <Star />
                         <App2 />
-                
-                   
                   </li>
                     )
                     })}
                 
                 </ul>   
-                         </div>
+                        </div>
                 
             )
         }
