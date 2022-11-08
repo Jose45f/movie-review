@@ -2,7 +2,7 @@ export const List = [
     {   id: 1,
         img:"https://resizing.flixster.com/IaXbRF4gIPh9jireK_4VCPNfdKc=/200x0/v2/https://flxt.tmsimg.com/assets/p16286009_p_v13_ba.jpg",
         title:"Childs play",
-        year: 1999,
+        year: 1988,
         info:"Child's Play is a 1988 American slasher film directed by Tom Holland, from a screenplay by Holland, Don Mancini and John Lafia, and based on a story by Mancini. It is the first film in the Child's Play series and the first installment to feature the character Chucky.",
 
     },
