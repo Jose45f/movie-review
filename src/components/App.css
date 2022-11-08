@@ -1,5 +1,4 @@
 .mov {
-
   backdrop-filter: blur(9px);
   text-align: center;
   color: rgb(255, 255, 255);
@@ -39,9 +38,14 @@ justify-content: center;
 display:inline-table;
 align-items: center;
 border-radius: 13px;
-backdrop-filter: blur(100px);
-
+position:static;
 }
+
+.right{
+justify-content: space-around;
+ margin-left: 35%;
+}
+
 
 
 
