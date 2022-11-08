@@ -3,6 +3,8 @@
 import { Component } from "react";
 import './App.css';
 import { List } from './Moviedata';
+import Star from "./stars";
+import App2 from "./App2";
 
 
 class Movielist extends Component {
@@ -15,9 +17,14 @@ class Movielist extends Component {
                     <ul> {List.map((item, index)=>{
                         return(
                              <li className="line" key={index}>
-                        <a href={item.img} className={item.cName}>
-                    <i className={item.icon}></i>{item.title}
-                    </a>
+                        <img src={item.img} alt='movie pics'/>
+                        <h1 >{item.title} </h1>
+                        <h2>{item.year} </h2>
+                        <p>{item.info} </p>
+                        <Star />
+                        <App2 />
+                
+                   
                   </li>
                     )
                     })}

@@ -1,10 +1,11 @@
 .mov {
+  backdrop-filter: blur(9px);
   text-align: center;
   padding-top: 50px;
-  color: yellow;
+  color: rgb(255, 255, 255);
 }
 li.line{
-  display: inline;
+  display: inline-block;
   padding: 20px;
 }
 
@@ -23,3 +24,12 @@ padding: 15px;
 	font-family: Arial, Helvetica, sans-serif;
 	box-sizing: border-box;
 }
+
+.color{
+  color: aliceblue;
+}
+
+.bottom{
+margin-bottom: 50px;
+}
+

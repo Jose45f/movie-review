@@ -12,7 +12,7 @@ function Star () {
     const [rating, setRating] = useState(0);
     return (
         <div className='mov'>
-            <h2>Rate Below</h2>
+            <h2>Rate:</h2>
             <ul className='starList'>
             {[1,2,3,4,5].map((index) =>{
             return(
